@@ -1,0 +1,23 @@
+ Tue, 24 Mar 2020 21:59:21  INFO basepage.py wait_ele_visible [ line:46 ] 百度页面_搜索输入操作 等待 ('id', 'kw1', 5) 元素可见。
+ Tue, 24 Mar 2020 21:59:21  INFO basepage.py save_page_shot [ line:169 ] 截取当前网页成功并存储在: D:\Pychram-Workspace\py25-web-base\PO\Outputs/screenshots/百度页面_搜索输入操作_2020-03-24 21_59_21.png
+ Tue, 24 Mar 2020 21:59:21  ERROR basepage.py wait_ele_visible [ line:53 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "D:/Pychram-Workspace/py25-web-base/PO/Common/basepage.py", line 49, in wait_ele_visible
+    WebDriverWait(self.driver, timeout,poll_frequency=poll_fre).until(EC.visibility_of_element_located(loc))
+  File "D:\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+TypeError: find_element() takes from 1 to 3 positional arguments but 4 were given
+ Tue, 24 Mar 2020 21:59:43  INFO basepage.py wait_ele_visible [ line:46 ] 百度页面_搜索输入操作 等待 ('id', 'kw1') 元素可见。
+ Tue, 24 Mar 2020 21:59:49  INFO basepage.py save_page_shot [ line:169 ] 截取当前网页成功并存储在: D:\Pychram-Workspace\py25-web-base\PO\Outputs/screenshots/百度页面_搜索输入操作_2020-03-24 21_59_48.png
+ Tue, 24 Mar 2020 21:59:49  ERROR basepage.py wait_ele_visible [ line:53 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "D:/Pychram-Workspace/py25-web-base/PO/Common/basepage.py", line 49, in wait_ele_visible
+    WebDriverWait(self.driver, timeout,poll_frequency=poll_fre).until(EC.visibility_of_element_located(loc))
+  File "D:\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

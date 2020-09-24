@@ -1,0 +1,7 @@
+ Thu, 24 Sep 2020 15:51:40  INFO logger.py <module> [ line:20 ] hehehe
+ Thu, 24 Sep 2020 15:51:50  INFO basepage.py wait_ele_visible [ line:48 ] 百度页面_搜索输入操作 等待 ('id', 'kw') 元素可见。
+ Thu, 24 Sep 2020 15:51:50  INFO basepage.py get_element [ line:72 ] 在 百度页面_搜索输入操作 查找元素：('id', 'kw').
+ Thu, 24 Sep 2020 15:51:50  INFO basepage.py input_text [ line:122 ] 在 百度页面_搜索输入操作 往元素 ('id', 'kw') 输入文本值：柠檬班。
+ Thu, 24 Sep 2020 15:51:51  INFO basepage.py wait_ele_visible [ line:48 ] 百度页面_点击百度一下 等待 ('id', 'su') 元素可见。
+ Thu, 24 Sep 2020 15:51:51  INFO basepage.py get_element [ line:72 ] 在 百度页面_点击百度一下 查找元素：('id', 'su').
+ Thu, 24 Sep 2020 15:51:51  INFO basepage.py click_element [ line:110 ] 在 百度页面_点击百度一下  点击 ('id', 'su') 元素。

@@ -1,0 +1,3 @@
+ Tue, 24 Mar 2020 21:20:11  INFO basepage.py input_text [ line:118 ] 在 百度页面_搜索输入操作 往元素 ('id', 'kw') 输入文本值：柠檬班。
+ Tue, 24 Mar 2020 21:20:11  INFO basepage.py wait_ele_visible [ line:46 ] 百度页面_搜索输入操作 等待 ('id', 'kw') 元素可见。
+ Tue, 24 Mar 2020 21:20:11  INFO basepage.py get_element [ line:70 ] 在 百度页面_搜索输入操作 查找元素：('id', 'kw').

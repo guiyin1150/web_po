@@ -1,0 +1,9 @@
+ Thu, 24 Sep 2020 14:06:51  INFO basepage.py wait_ele_visible [ line:46 ] 登陆页面_输入用户名 等待 ('xpath', '//input[@name="phone"]') 元素可见。
+ Thu, 24 Sep 2020 14:06:51  INFO basepage.py get_element [ line:70 ] 在 登陆页面_输入用户名 查找元素：('xpath', '//input[@name="phone"]').
+ Thu, 24 Sep 2020 14:06:51  INFO basepage.py input_text [ line:120 ] 在 登陆页面_输入用户名 往元素 ('xpath', '//input[@name="phone"]') 输入文本值：18684720553。
+ Thu, 24 Sep 2020 14:06:51  INFO basepage.py wait_ele_visible [ line:46 ] 登陆页面_输入密码 等待 ('xpath', '//input[@name="password"]') 元素可见。
+ Thu, 24 Sep 2020 14:06:51  INFO basepage.py get_element [ line:70 ] 在 登陆页面_输入密码 查找元素：('xpath', '//input[@name="password"]').
+ Thu, 24 Sep 2020 14:06:51  INFO basepage.py input_text [ line:120 ] 在 登陆页面_输入密码 往元素 ('xpath', '//input[@name="password"]') 输入文本值：python。
+ Thu, 24 Sep 2020 14:06:52  INFO basepage.py wait_ele_visible [ line:46 ] 登陆页面_点击登陆按钮 等待 ('tag name', 'button') 元素可见。
+ Thu, 24 Sep 2020 14:06:52  INFO basepage.py get_element [ line:70 ] 在 登陆页面_点击登陆按钮 查找元素：('tag name', 'button').
+ Thu, 24 Sep 2020 14:06:52  INFO basepage.py click_element [ line:108 ] 在 登陆页面_点击登陆按钮  点击 ('tag name', 'button') 元素。

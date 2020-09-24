@@ -1,0 +1,11 @@
+ Thu, 24 Sep 2020 15:03:37  INFO logger.py <module> [ line:20 ] hehehe
+ Thu, 24 Sep 2020 15:03:43  INFO basepage.py wait_ele_visible [ line:47 ] 百度页面_搜索输入操作 等待 ('id', 'kw1') 元素可见。
+ Thu, 24 Sep 2020 15:04:04  INFO basepage.py save_page_shot [ line:170 ] 截取当前网页成功并存储在: C:\Users\ampthon\PycharmProjects\web\PO\Outputs\screenshots/百度页面_搜索输入操作_2020-09-24 15_04_03.png
+ Thu, 24 Sep 2020 15:04:04  ERROR basepage.py wait_ele_visible [ line:54 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "C:/Users/ampthon/PycharmProjects/web/PO/Common/basepage.py", line 50, in wait_ele_visible
+    WebDriverWait(self.driver, timeout,poll_frequency=poll_fre).until(EC.visibility_of_element_located(loc))
+  File "D:\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

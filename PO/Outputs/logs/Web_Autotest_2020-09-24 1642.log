@@ -1,0 +1,18 @@
+ Thu, 24 Sep 2020 16:42:29  INFO logger.py <module> [ line:20 ] hehehe
+ Thu, 24 Sep 2020 16:42:40  INFO basepage.py wait_ele_visible [ line:48 ] 登陆页面_输入用户名 等待 ('xpath', '//input[@name="phone"]') 元素可见。
+ Thu, 24 Sep 2020 16:42:40  INFO basepage.py get_element [ line:72 ] 在 登陆页面_输入用户名 查找元素：('xpath', '//input[@name="phone"]').
+ Thu, 24 Sep 2020 16:42:40  INFO basepage.py input_text [ line:122 ] 在 登陆页面_输入用户名 往元素 ('xpath', '//input[@name="phone"]') 输入文本值：18684720553。
+ Thu, 24 Sep 2020 16:42:41  INFO basepage.py wait_ele_visible [ line:48 ] 登陆页面_输入密码 等待 ('xpath', '//input[@name="password"]') 元素可见。
+ Thu, 24 Sep 2020 16:42:41  INFO basepage.py get_element [ line:72 ] 在 登陆页面_输入密码 查找元素：('xpath', '//input[@name="password"]').
+ Thu, 24 Sep 2020 16:42:41  INFO basepage.py input_text [ line:122 ] 在 登陆页面_输入密码 往元素 ('xpath', '//input[@name="password"]') 输入文本值：python。
+ Thu, 24 Sep 2020 16:42:41  INFO basepage.py wait_ele_visible [ line:48 ] 登陆页面_点击登陆按钮 等待 ('tag name', 'button') 元素可见。
+ Thu, 24 Sep 2020 16:42:41  INFO basepage.py get_element [ line:72 ] 在 登陆页面_点击登陆按钮 查找元素：('tag name', 'button').
+ Thu, 24 Sep 2020 16:42:41  INFO basepage.py click_element [ line:110 ] 在 登陆页面_点击登陆按钮  点击 ('tag name', 'button') 元素。
+ Thu, 24 Sep 2020 16:42:51  INFO basepage.py wait_ele_visible [ line:48 ] 标页面 - 获取用户余额 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素可见。
+ Thu, 24 Sep 2020 16:42:51  INFO basepage.py get_element [ line:72 ] 在 标页面 - 获取用户余额 查找元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]").
+ Thu, 24 Sep 2020 16:42:51  INFO basepage.py get_ele_attribute [ line:133 ] 在 标页面 - 获取用户余额 获取元素 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 的 data-amount 属性。
+ Thu, 24 Sep 2020 16:42:51  INFO basepage.py get_ele_attribute [ line:141 ] 属性值为：5132740626.50
+ Thu, 24 Sep 2020 16:42:51  INFO basepage.py wait_ele_visible [ line:48 ] 标页面 - 获取标的余额 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span[1]') 元素可见。
+ Thu, 24 Sep 2020 16:42:51  INFO basepage.py get_element [ line:72 ] 在 标页面 - 获取标的余额 查找元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span[1]').
+ Thu, 24 Sep 2020 16:42:51  INFO basepage.py get_ele_text [ line:148 ] 在 标页面 - 获取标的余额 获取元素 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span[1]') 的文本内容。
+ Thu, 24 Sep 2020 16:42:51  INFO basepage.py get_ele_text [ line:156 ] 文本值为：2600

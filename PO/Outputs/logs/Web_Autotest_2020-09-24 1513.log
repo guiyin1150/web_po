@@ -1,0 +1,24 @@
+ Thu, 24 Sep 2020 15:13:13  INFO logger.py <module> [ line:20 ] hehehe
+ Thu, 24 Sep 2020 15:13:20  INFO basepage.py wait_ele_visible [ line:48 ] 百度页面_搜索输入操作 等待 ('By.ID', 'kw1') 元素可见。
+ Thu, 24 Sep 2020 15:13:20  INFO basepage.py save_page_shot [ line:171 ] 截取当前网页成功并存储在: C:\Users\ampthon\PycharmProjects\web\PO\Outputs\screenshots/百度页面_搜索输入操作_2020-09-24 15_13_20.png
+ Thu, 24 Sep 2020 15:13:20  ERROR basepage.py wait_ele_visible [ line:55 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "C:/Users/ampthon/PycharmProjects/web/PO/Common/basepage.py", line 51, in wait_ele_visible
+    WebDriverWait(self.driver, timeout,poll_frequency=poll_fre).until(EC.visibility_of_element_located(loc))
+  File "D:\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\python37\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: invalid locator
+  (Session info: chrome=84.0.4147.125)
+
